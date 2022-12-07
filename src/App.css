@@ -1,0 +1,21 @@
+.user-list {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.user-list-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-list-flex > div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.user-list-flex img {
+  display: inline-block;
+  max-width: 100%;
+}
